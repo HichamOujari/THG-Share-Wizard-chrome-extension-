@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | THG-Share Wizard</title>
+    <link rel="icon" href="../assets/logo.png">
+    <link rel="stylesheet" href="../styles/index.css">
+</head>
+
+<body>
+    <img style="display:none;" id="imageId" src="../assets/logo.png" />
+    <div id="load">
+        <div>G</div>
+        <div>N</div>
+        <div>I</div>
+        <div>D</div>
+        <div>A</div>
+        <div>O</div>
+        <div>L</div>
+    </div>
+    <button style="display:none;" id="auth">Let's start</button>
+
+    <ul id="infos" style="display:none;">
+        <li><b>UUID : </b>
+            <p id="uuid"></p>
+        </li>
+        <li><b>Total :</b>
+            <p id="amount"></p>
+            <pre> MAD</pre>
+        </li>
+        <li><b>Last Check : </b>
+            <p id="last_check"></p>
+        </li>
+        <li>
+            <b>Today earning : </b>
+            <p id="today"></p>
+            <pre> MAD</pre>
+        </li>
+        <li>
+            <b>Next Check in : </b>
+            <p id="nextCheck"></p>
+        </li>
+    </ul>
+
+    <script src="../scripts/popup.js"></script>
+</body>
+
+</html>
